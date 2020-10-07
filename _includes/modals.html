@@ -10,13 +10,29 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-12 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">{{ project.title }}</h2>
                 <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-				<p>{{ project.content }}</p>		
+                <div class="row">
+                <div class="col-sm-3">
+                   <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
+                 </div>
+                 <div class="col-sm-3">
+                  <img class="img-fluid d-block mx-auto" src="{{ project.image1 }}" alt="{{ project.alt }}">
+                </div>
+                <div class="col-sm-3">
+                  <img class="img-fluid d-block mx-auto" src="{{ project.image2 }}" alt="{{ project.alt }}">
+                </div>
+                <div class="col-sm-3">
+                  <img class="img-fluid d-block mx-auto" src="{{ project.image3 }}" alt="{{ project.alt }}">
+                </div>
+                </div>
+				        <p>{{ project.content }}</p>
+                <div class="row justify-content-center">
+                <a href="{{ project.link }}"><i class="fab fa-app-store fa-4x"></i> </a>
+                </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   {{ site.data.sitetext.portfolio.closebutton | default: "Close Project" }}</button>
