@@ -83,7 +83,7 @@ clients:
 team:
     title: "Tech."
     text: "techs and tools used to build great apps."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: ""
     section: team
     people:
       - name: "Kay Garland"
