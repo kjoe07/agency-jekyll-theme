@@ -1,6 +1,6 @@
 ---
 title: Conectacte
-subtitle: Purchase, sale or barter of goods and services, Employ yourself or self-employ
+subtitle: Purchase, sale or barter of goods and services, Employ yourself or self-employ.
 image: https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/43/0d/98/430d985f-77a1-a61b-7229-5f79c45dca09/pr_source.png/300x0w.png
 image1: https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/52/8f/6e/528f6ea3-fe6c-a9f6-ed12-f3e1e8f9a37f/pr_source.png/300x0w.png
 image2: https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/5b/b4/70/5bb47026-e012-217b-63eb-fb7bed3d9877/pr_source.png/300x0w.png
